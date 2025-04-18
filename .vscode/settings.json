@@ -1,0 +1,22 @@
+{
+    "files.associations": {
+        "resource.h": "c",
+        "libbpf.h": "c",
+        "libbpfapp.skel.h": "c",
+        "bpf.h": "c",
+        "types.h": "c"
+    },
+    "makefile.configurations": [
+        {
+            "name": "libbpfapp",
+            "makeArgs": ["all"]
+        }
+    ],
+    "makefile.launchConfigurations": [
+        {
+            "cwd": "/home/android/Desktop/libbpf-app",
+            "binaryPath": "/home/android/Desktop/libbpf-app/libbpfapp",
+            "binaryArgs": []
+        }
+    ]
+}
